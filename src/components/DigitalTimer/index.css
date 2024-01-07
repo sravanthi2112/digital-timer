@@ -1,0 +1,134 @@
+/* Write your CSS here */
+.background-sec {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  min-height: 100vh;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-sec {
+  display: flex;
+  border: 2px solid blueviolet;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.background-image-time {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.time-count {
+  background-color: white;
+  border-radius: 75px;
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 5px;
+  border: blue solid 1px;
+  margin-bottom: 0px;
+}
+
+.options-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: yellow solid 2px;
+}
+
+.start-reset-container {
+  border: red 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-minus-container {
+  display: flex;
+  align-items: center;
+  border: 1px black solid;
+}
+
+.plus-minus {
+  background-color: transparent;
+  border: none;
+  margin: 15px;
+  font-size: 30px;
+}
+
+.set-timer {
+  background-color: #00d9f5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.time-countdown {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00d9f5;
+  margin-bottom: 5px;
+}
+
+.start-reset {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1e293b;
+  background-color: transparent;
+  border: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.running {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.set-timer-limit {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .content-sec {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .background-image-time {
+    height: 280px;
+    width: 280px;
+  }
+  .start-reset-container {
+    width: 100%;
+  }
+  .options-sec {
+    width: 70%;
+  }
+}
